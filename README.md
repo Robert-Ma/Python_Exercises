@@ -3,7 +3,7 @@ These exercises are just to help to improve Python coding skills. And all exerci
 This contains:
 - Python Data Structures and Algorithms
     - Data Structures
-        - [ ] Write a Python program to create an Enum object and display a member name and value.
+        - [x] Write a Python program to create an Enum object and display a member name and value.
         - [ ] Write a Python program to iterate over an enum class and display individual member and their value.
         - [ ] Write a Python program to display all the member name of an enum class ordered by their values.
         - [ ] Write a Python program to get all values from an enum class.
