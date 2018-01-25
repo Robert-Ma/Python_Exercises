@@ -5,6 +5,10 @@ Expected Output:
 [('pink', 6), ('black', 5), ('white', 5), ('red', 4)]
 """
 
+from collections import OrderedDict, Counter
+from operator import itemgetter
+from pandas import DataFrame, Series
+
 words = ['red', 'green', 'black', 'pink', 'black', 'white', 'black', 'eyes',
          'white', 'black', 'orange', 'pink', 'pink', 'red', 'red', 'white', 'orange',
          'white', "black", 'pink', 'green', 'green', 'pink', 'green', 'pink',
@@ -29,10 +33,31 @@ def count_words(sequences, num):
 
     items = counts.items()    # To get all items with tuple
     sortedItems = tuple(sorted(items, key = lambda element: (element[1],element[0]),reverse = True))    # To sort tuple by values
+    # or using this:
+    # sortedItems = [(words, count) for words, count in counts.items()].sort(key = lambda x: x[1])
 
-    return sortedItems[:top]
+    return sortedItems[:num]
 
+# Mehtod 2: Use OrderedDict
+def count_words2(Seq, num):
+    """
+    To count the most commom words of Seq using OrderedDict.
+    """
+
+    counts = {}
+    for x in Seq:
+        if x in counts:
+            counts[x] += 1
+        else:
+            counts[x] = 1
+
+    orderdCounts = OrderedDict(sorted(counts.items(), key = itemgetter(1), reverse = True))
+    items = orderdCounts.items()
+
+    return list(items)[:num]
 
 
 if __name__ == '__main__':
-    print(list(count_words(words,5)))
+    print(list(count_words(words,5)))   # Using method 1
+    print(count_words2(words, 4))  # Using method 2
+
