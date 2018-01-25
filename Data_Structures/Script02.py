@@ -41,4 +41,13 @@ class Country(Enum):
             return NotImplemented
 
     def __repr__(self):
-        return 'Name: %s\tValue: %f' % (self.name, self.value)
+        return '(%s, %d)' % (self.name, self.value)
+
+if __name__ == '__main__':
+    for x in list(sorted(Country)):
+        print(x.name, ':', x.value)
+
+    # To get all values
+    y = [item.value for item in Country]
+    print(y)
+

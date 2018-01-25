@@ -4,9 +4,9 @@ This contains:
 - Python Data Structures and Algorithms
     - Data Structures
         - [x] Write a Python program to create an Enum object and display a member name and value.
-        - [ ] Write a Python program to iterate over an enum class and display individual member and their value.
-        - [ ] Write a Python program to display all the member name of an enum class ordered by their values.
-        - [ ] Write a Python program to get all values from an enum class.
+        - [x] Write a Python program to iterate over an enum class and display individual member and their value.
+        - [x] Write a Python program to display all the member name of an enum class ordered by their values.
+        - [x] Write a Python program to get all values from an enum class.
         - [ ] Write a Python program to count the most common words in a dictionary.
         - [ ] Write a Python program to find the class wise roll number from a tuple-of-tuples.
         - [ ] Write a Python program to count the number of students of individual class.

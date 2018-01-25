@@ -22,6 +22,6 @@ if __name__ == "__main__":
     print(Country['Albania'])
     print(repr(Country['Albania']))
     print(list(Country))
-    for item in Country:
+    for item in sorted(Country):
         print(item.name,'\t', item.value)
 
