@@ -7,6 +7,10 @@ from collections import Counter
 
 # Compared by each value pairs
 def compare_lists_pairs(x, y):
+    if isinstance(x, list) and isinstance(y, list):
+        print('prameters must be list')
+        return False
+
     if len(x) != len(y):
         return False
     else:
@@ -19,9 +23,13 @@ def compare_lists_pairs(x, y):
                 return False
         return True
 
+# Compared by collections.Counter
+def compare_lists_counter(x, y):
+    return Counter(x) == Counter(y)
 
 if __name__ == '__main__':
     n1 = [20, 10, 30, 10, 20, 30]
     n2 = [30, 20, 10, 30, 20, 50]
 
     print(compare_lists_pairs(n1, n2))
+    print(compare_lists_counter(n1, n2))
