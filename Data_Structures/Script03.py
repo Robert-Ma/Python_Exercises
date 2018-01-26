@@ -58,6 +58,14 @@ def count_words2(Seq, num):
 
 
 if __name__ == '__main__':
-    print(list(count_words(words,5)))   # Using method 1
-    print(count_words2(words, 4))  # Using method 2
+    print(list(count_words(words,5))) # Using method 1
+    print(count_words2(words, 4))     # Using method 2
 
+    # Method 3: collections.Counter
+    counts = Counter(words)           # Using collections.Counter
+    print(counts.most_common(4))
+
+    # Method 4: pandas.Series
+    ser = Series(words)
+    words_counts = ser.value_counts()
+    print(words_counts[:4])
