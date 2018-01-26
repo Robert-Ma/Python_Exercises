@@ -10,3 +10,11 @@ Using the python standard library: collections:
     5) defaultdict: dict subclass that calls a factory function to supply missing values
 """
 
+from collections import defaultdict
+
+classes = (('V', 1), ('VI', 1), ('V', 2), ('VI', 2), ('VI', 3), ('VII', 1))
+d = defaultdict(list)
+for k, v in classes:
+    d[k].append(v)
+
+print(d.items())
