@@ -28,7 +28,7 @@ This contains:
         - [x] Write a Python program to get the two largest and three smallest items from a dataset.
         - [x] Write a Python program to locate the left insertion point for a specified value in sorted order.
         - [x] Write a Python program to locate the right insertion point for a specified value in sorted order.
-        - [ ] Write a Python program to insert items into a list in sorted order.
+        - [x] Write a Python program to insert items into a list in sorted order.
         - [ ] Write a Python program to create a queue and display all the members and size of the queue. 
         - [ ] Write a Python program to find whether a queue is empty or not.
         - [ ] Write a Python program to create a FIFO queue.
