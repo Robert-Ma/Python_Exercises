@@ -30,3 +30,10 @@ Queue.get(block=True, timeout=None)
 Queue.task_done()
 Queue.join()
 """
+
+import queue
+
+q = queue.Queue()
+[q.put(x) for x in range(5)]
+print('all the members:', list(q.queue))
+print('size:', q.qsize())
