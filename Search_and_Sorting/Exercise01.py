@@ -21,6 +21,18 @@ def binary_search(itemList, item):
     return False
 
 
+# codes from doc.python.org
+import bisect
+def index(a, x):
+    """
+    Locate the left value exactly equal to x
+    """
+    i = bisect.bisect_left(a, x)
+    if i != len(a) and a[i] == x:
+        return i
+    return False
+
+
 if __name__ == '__main__':
     print(binary_search([1,2,3,4,5], 6))
     print(binary_search([1,2,3,4,5], 5))
@@ -28,3 +40,7 @@ if __name__ == '__main__':
     print(binary_search([1,2,3,4,5], 1))
     print(binary_search([1,2,3,4], 0))
     print(binary_search((1,2,3,4), 6))
+
+    print(index([1,2,3], 4))
+    print(index([1,2,3], 2))
+    print(index([1,2,3], 0))

@@ -34,7 +34,7 @@ This contains:
         - [x] Write a Python program to create a FIFO queue.
         - [x] Write a Python program to create a LIFO queue.
     - Search and Sorthing
-        - [ ] Write a Python program for binary search.
+        - [x] Write a Python program for binary search.
         - [ ] Write a Python program for sequential search.
         - [ ] Write a Python program for binary search for an ordered list.
         - [ ] Write a Python program to sort a list of elements using the bubble sort algorithm.
