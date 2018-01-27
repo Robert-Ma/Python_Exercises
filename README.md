@@ -14,18 +14,18 @@ This contains:
         - [x] Write a Python program to create an instance of an OrderedDict using a given dictionary. Sort the dictionary during the creation and print the members of the dictionary in reverse order.
         - [x] Write a Python program to group a sequence of key-value pairs into a dictionary of lists.
         - [x] Write a Python program to compare two unordered lists (not sets).
-        - [ ] Write a Python program to create an array contains six integers. Also print all the members of the array.
-        - [ ] Write a Python program to get the array size of types unsigned integer and float.
-        - [ ] Write a Python program to get an array buffer information.
-        - [ ] Write a Python program to get the length of an array.
-        - [ ] Write a Python program to convert an array to an ordinary list with the same items.
-        - [ ] Write a Python program to convert an array to an array of machine values and return the bytes representation.
-        - [ ] Write a Python program to read a string and interpreting the string as an array of machine values.
-        - [ ] Write a Python program to push three items into the heap and print the items from the heap.
-        - [ ] Write a Python program to push three items into a heap and return the smallest item from the heap. Also Pop and return the smallest item from the heap.
-        - [ ] Write a Python program to push an item on the heap, then pop and return the smallest item from the heap.
-        - [ ] Write a Python program to create a heapsort, pushing all values onto a heap and then popping off the smallest values one at a time.
-        - [ ] Write a Python program to get the two largest and three smallest items from a dataset.
+        - [x] Write a Python program to create an array contains six integers. Also print all the members of the array.
+        - [x] Write a Python program to get the array size of types unsigned integer and float.
+        - [x] Write a Python program to get an array buffer information.
+        - [x] Write a Python program to get the length of an array.
+        - [x] Write a Python program to convert an array to an ordinary list with the same items.
+        - [x] Write a Python program to convert an array to an array of machine values and return the bytes representation.
+        - [x] Write a Python program to read a string and interpreting the string as an array of machine values.
+        - [x] Write a Python program to push three items into the heap and print the items from the heap.
+        - [x] Write a Python program to push three items into a heap and return the smallest item from the heap. Also Pop and return the smallest item from the heap.
+        - [x] Write a Python program to push an item on the heap, then pop and return the smallest item from the heap.
+        - [x] Write a Python program to create a heapsort, pushing all values onto a heap and then popping off the smallest values one at a time.
+        - [x] Write a Python program to get the two largest and three smallest items from a dataset.
         - [ ] Write a Python program to locate the left insertion point for a specified value in sorted order.
         - [ ] Write a Python program to locate the right insertion point for a specified value in sorted order.
         - [ ] Write a Python program to insert items into a list in sorted order.
