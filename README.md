@@ -30,7 +30,7 @@ This contains:
         - [x] Write a Python program to locate the right insertion point for a specified value in sorted order.
         - [x] Write a Python program to insert items into a list in sorted order.
         - [x] Write a Python program to create a queue and display all the members and size of the queue. 
-        - [ ] Write a Python program to find whether a queue is empty or not.
+        - [x] Write a Python program to find whether a queue is empty or not.
         - [ ] Write a Python program to create a FIFO queue.
         - [ ] Write a Python program to create a LIFO queue.
     - Search and Sorthing
