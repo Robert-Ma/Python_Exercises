@@ -26,8 +26,8 @@ This contains:
         - [x] Write a Python program to push an item on the heap, then pop and return the smallest item from the heap.
         - [x] Write a Python program to create a heapsort, pushing all values onto a heap and then popping off the smallest values one at a time.
         - [x] Write a Python program to get the two largest and three smallest items from a dataset.
-        - [ ] Write a Python program to locate the left insertion point for a specified value in sorted order.
-        - [ ] Write a Python program to locate the right insertion point for a specified value in sorted order.
+        - [x] Write a Python program to locate the left insertion point for a specified value in sorted order.
+        - [x] Write a Python program to locate the right insertion point for a specified value in sorted order.
         - [ ] Write a Python program to insert items into a list in sorted order.
         - [ ] Write a Python program to create a queue and display all the members and size of the queue. 
         - [ ] Write a Python program to find whether a queue is empty or not.
