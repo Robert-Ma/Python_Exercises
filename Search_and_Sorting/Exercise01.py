@@ -6,6 +6,7 @@ def binary_search(itemList, item):
     """
     For binary search. If found the target value, return its position, or return False.
     """
+    itemList = sorted(itemList, reverse = False)
     first = 0
     last = len(itemList) - 1
 
