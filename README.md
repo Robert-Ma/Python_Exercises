@@ -36,8 +36,7 @@ This contains:
     - Search and Sorthing
         - [x] Write a Python program for binary search.
         - [x] Write a Python program for sequential search.
-        - [ ] Write a Python program for binary search for an ordered list.
-        - [ ] Write a Python program to sort a list of elements using the bubble sort algorithm.
+        - [x] Write a Python program to sort a list of elements using the bubble sort algorithm.
         - [ ] Write a Python program to sort a list of elements using the selection sort algorithm.
         - [ ] Write a Python program to sort a list of elements using the insertion sort algorithm.
         - [ ] Write a Python program to sort a list of elements using shell sort algorithm.
