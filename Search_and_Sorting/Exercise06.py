@@ -5,10 +5,12 @@ In this script, using concrete gaps: [N/2], [N/4], [N/8], ..., 1.
 The worst case time complexity is O(N^2).
 """
 
+import operator
 
-def shellSort(alist):
+def shellSort(alist, reverse = False):
     if not isinstance(alist, list):
         raise TypeError('Prameter must a list.')
+    op = operator.lt if reverse else operator.gt
     N = len(alist)
     gap = int(N / 2)
 
@@ -17,7 +19,7 @@ def shellSort(alist):
             temp = alist[i]
             j = i
 
-            while j >= gap and alist[j - gap] > temp:
+            while j >= gap and op(alist[j - gap], temp):
                 alist[j] = alist[j - gap]
                 j -= gap
             alist[j] = temp
@@ -28,4 +30,5 @@ def shellSort(alist):
 if __name__ == '__main__':
     alist = [14, 46, 43, 27, 57, 41, 45, 21, 70]
     print(shellSort(alist))
+    print(shellSort(alist, reverse=True))
     print(shellSort(()))
