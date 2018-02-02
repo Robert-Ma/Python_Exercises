@@ -41,7 +41,7 @@ This contains:
         - [x] Write a Python program to sort a list of elements using the insertion sort algorithm.
         - [x] Write a Python program to sort a list of elements using shell sort algorithm.
         - [x] Write a Python program to sort a list of elements using the merge sort algorithm.
-        - [ ] Write a Python program to sort a list of elements using the quick sort algorithm.
+        - [x] Write a Python program to sort a list of elements using the quick sort algorithm.
         - [ ] Write a Python program for counting sort.
     - Recursion
         - [ ] Write a Python program to calculate the sum of a list of numbers.
