@@ -52,6 +52,6 @@ This contains:
         - [x] Write a Python program to calculate the sum of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0).
         - [x] Write a Python program to calculate the harmonic sum of n-1.
         - [x] Write a Python program to calculate the geometric sum of n-1.
-        - [ ] Write a Python program to calculate the value of 'a' to the power 'b'.
+        - [x] Write a Python program to calculate the value of 'a' to the power 'b'.
         - [ ] Write a Python program to find  the greatest common divisor (gcd) of two integers.
         - [ ] **_More to Come!_**
