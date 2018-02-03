@@ -53,5 +53,5 @@ This contains:
         - [x] Write a Python program to calculate the harmonic sum of n-1.
         - [x] Write a Python program to calculate the geometric sum of n-1.
         - [x] Write a Python program to calculate the value of 'a' to the power 'b'.
-        - [ ] Write a Python program to find  the greatest common divisor (gcd) of two integers.
+        - [x] Write a Python program to find  the greatest common divisor (gcd) of two integers.
         - [ ] **_More to Come!_**
