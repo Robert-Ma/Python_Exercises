@@ -47,7 +47,7 @@ This contains:
         - [x] Write a Python program to calculate the sum of a list of numbers.
         - [x] Write a Python program of recursion list sum. 
         - [x] Write a Python program to get the factorial of a non-negative integer.
-        - [ ] Write a Python program to solve the Fibonacci sequence using recursion.
+        - [x] Write a Python program to solve the Fibonacci sequence using recursion.
         - [ ] Write a Python program to get the sum of a non-negative integer.
         - [ ] Write a Python program to calculate the sum of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0).
         - [ ] Write a Python program to calculate the harmonic sum of n-1.
