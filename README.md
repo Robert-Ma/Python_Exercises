@@ -42,7 +42,7 @@ This contains:
         - [x] Write a Python program to sort a list of elements using shell sort algorithm.
         - [x] Write a Python program to sort a list of elements using the merge sort algorithm.
         - [x] Write a Python program to sort a list of elements using the quick sort algorithm.
-        - [ ] Write a Python program for counting sort.
+        - [x] Write a Python program for counting sort.
     - Recursion
         - [ ] Write a Python program to calculate the sum of a list of numbers.
         - [ ] Write a Python program to converting an Integer to a string in any base.
