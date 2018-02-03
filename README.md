@@ -44,9 +44,8 @@ This contains:
         - [x] Write a Python program to sort a list of elements using the quick sort algorithm.
         - [x] Write a Python program for counting sort.
     - Recursion
-        - [ ] Write a Python program to calculate the sum of a list of numbers.
-        - [ ] Write a Python program to converting an Integer to a string in any base.
-        - [ ] Write a Python program of recursion list sum. 
+        - [x] Write a Python program to calculate the sum of a list of numbers.
+        - [x] Write a Python program of recursion list sum. 
         - [ ] Write a Python program to get the factorial of a non-negative integer.
         - [ ] Write a Python program to solve the Fibonacci sequence using recursion.
         - [ ] Write a Python program to get the sum of a non-negative integer.
